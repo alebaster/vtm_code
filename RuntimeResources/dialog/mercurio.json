@@ -1,0 +1,3710 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "text": "[Howls in pain, anguish, slurs words, jaw is broken]Those mothers. . .ripped me off. . .I'm dyin' here! [Howl of pain]!",
+            "answers": [
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "effect": "SetQuest(\"Mercurio\",2)"
+        },
+        {
+            "id": 11,
+            "text": "What? No! I got a record back East. I'm heat bait. Don't touch that phone! No goddamn cops!",
+            "answers": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "effect": "G.Mercurio_Ambulance = 1"
+        },
+        {
+            "id": 21,
+            "text": "No cops!",
+            "answers": [
+                22,
+                23,
+                24,
+                25
+            ],
+            "effect": ""
+        },
+        {
+            "id": 31,
+            "text": "[Shakes head]Uhn. . .yeah. You're lookin' for the Astrolite? I'm uhn. . .ah,I can feel a draft on my fuckin' insides! They shanked me - bastards! The blood ain't workin' no more, my head, it feels cracked[Sounds like he's trailing off, losing consciousness]. . think my eye's popped. . .",
+            "answers": [
+                32,
+                33,
+                34,
+                35
+            ],
+            "effect": "G.Mercurio_Know = 1"
+        },
+        {
+            "id": 41,
+            "text": "[Distant, rambling]Never shoulda gone alone. . .amateur move. . .I shoulda handled those pricks. . .goddamn dirty Cali rat bastards. . .",
+            "answers": [
+                42,
+                43
+            ],
+            "effect": "G.Mercurio_Ask = 1"
+        },
+        {
+            "id": 51,
+            "text": "You gotta. . .You can't tell anybody! Nobody can know I blew it! Promise me! If the prince finds out I'm a dead man! With you types, I screw up once and it's over! You hear me, I'm a goddamn memory!",
+            "answers": [
+                52,
+                53,
+                54,
+                55
+            ],
+            "effect": ""
+        },
+        {
+            "id": 61,
+            "text": "Unh. . .listen, I got connections. . .I'll set you up. . .but - son of a bitch, my leg's gone numb - damn it! You got me by the balls here - whatever's in my power to get you is yours!",
+            "answers": [
+                62,
+                63,
+                64
+            ],
+            "effect": "G.Mercurio_Get = 1"
+        },
+        {
+            "id": 71,
+            "text": "I got. . .I went. . .what the hell is this lump? Is it my rib? Holy shit, is my rib poking through my side? I'm all numb. . .You gotta look and tell me!",
+            "answers": [
+                72,
+                73,
+                74
+            ],
+            "effect": ""
+        },
+        {
+            "id": 81,
+            "text": "Goddamn chemist! Can't trust any operators in L.A. I verified him, organization seemed reliable. Guy mixes up speed, his crew sells it. Occasionally, he does explosives. I set up a drop.",
+            "answers": [
+                82
+            ],
+            "effect": ""
+        },
+        {
+            "id": 91,
+            "text": "I show up at his house with the money, right? Four of these guys come out of nowhere, junkie pricks - hit me with a bat! [Choking cough]Head feels like I gotta friggin' horse kickin' it.",
+            "answers": [
+                92
+            ],
+            "effect": ""
+        },
+        {
+            "id": 101,
+            "text": "Those [pause, furious]cocksuckers - beat me rotten and left me for a stiff. Had to crawl to my car, crawl my ass up here - the vamp blood's the only thing holding me together. But shit, they got the money, they got the Astrolite. . .",
+            "answers": [
+                102,
+                103,
+                104,
+                105,
+                106
+            ],
+            "effect": ""
+        },
+        {
+            "id": 111,
+            "text": "Hold on - you think I'm some amateur? I got their number. Those small-time sons of bitches live out in a dump on the beach. Maybe four or five of 'em. The one's got the explosives is Dennis. Got my money too, that prick!",
+            "answers": [
+                112
+            ],
+            "effect": ""
+        },
+        {
+            "id": 121,
+            "text": "You gotta' [chokes on blood/cough]. . .gotta' get it back from 'em. Maybe reason with 'em, maybe break in. . .I wanna' kill 'em. Do whatever you people do. I blew it, I know.",
+            "answers": [
+                122,
+                123,
+                124,
+                125,
+                126,
+                127
+            ],
+            "effect": "SetQuest(\"Mercurio\",1); SetQuest(\"Astrolite\",1)"
+        },
+        {
+            "id": 131,
+            "text": "[Real hurt]If you could. . .unhhh. . . ah, something just started leaking - I need something for the pain.",
+            "answers": [
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138
+            ],
+            "effect": ""
+        },
+        {
+            "id": 141,
+            "text": "Unh. . .one more thing. About the deal, I mean it. . .you tell anyone about this and I'm dead. I'm beggin' you. I got a way of getting people what they need. You don't say anything, I can help you out.",
+            "answers": [
+                142,
+                144,
+                145
+            ],
+            "effect": ""
+        },
+        {
+            "id": 151,
+            "text": "[Takes a deep breath]Unh. . .",
+            "answers": [
+                152,
+                153,
+                154,
+                155,
+                156,
+                160
+            ],
+            "effect": ""
+        },
+        {
+            "id": 161,
+            "text": "Ahh. . .Oh, holy Christ I needed that.",
+            "answers": [
+                162,
+                163,
+                164,
+                165
+            ],
+            "effect": "FindPlayer().HumanityAdd(1); G.Mercurio_Aid = 1; pc.AwardExperience(\"Astro03\")"
+        },
+        {
+            "id": 171,
+            "text": "Yeah? Didja waste those sons of bitches?",
+            "answers": [
+                172,
+                173,
+                174,
+                175
+            ],
+            "effect": "GetQuest(\"Mercurio\") = 2; G.Mercurio_Astro = 2; SetQuest(\"Astrolite\",3)"
+        },
+        {
+            "id": 181,
+            "text": "Didja get my money back?",
+            "answers": [
+                182,
+                183,
+                184
+            ],
+            "effect": ""
+        },
+        {
+            "id": 191,
+            "text": "Good, great -hope it was painful. Didja get my money back?",
+            "answers": [
+                192,
+                193,
+                194
+            ],
+            "effect": ""
+        },
+        {
+            "id": 201,
+            "text": "You're a lifesaver. I might have to buy some new kidneys with this.",
+            "answers": [
+                202,
+                203
+            ],
+            "effect": "pc.AwardExperience(\"Astro04\")"
+        },
+        {
+            "id": 211,
+            "text": "That Astrolite. . .twice as powerful as TNT.  Instant demolition. Be on the other side of the world when you engage the timer. [Pause]You need to make some place disappear, a warehouse. Looks to be a Sabbat interest.",
+            "answers": [
+                212,
+                213,
+                214
+            ],
+            "effect": ""
+        },
+        {
+            "id": 221,
+            "text": "I heard a lot about that operation.  I'd love to get in there, get my hands on the equipment they've been unloading. But it'd be suicide to walk in there. . .got a small army of trigger-happy types and they're all packin'.  I don't know. . .maybe. . .uh. . .",
+            "answers": [
+                222
+            ],
+            "effect": ""
+        },
+        {
+            "id": 231,
+            "text": "There's a guy, I never met him, but I heard a lot about him. His name's Tung, Bertram Tung. He's a, one of you types. If there's anyone who knows more than me about this city it's him. Unfortunately. . .Tung's hiding out at the moment.",
+            "answers": [
+                232,
+                233,
+                234
+            ],
+            "effect": "SetQuest(\"Warehouse\",2)"
+        },
+        {
+            "id": 241,
+            "text": "If there are, I don't know 'em. But, about Tung. . .",
+            "answers": [
+                242
+            ],
+            "effect": ""
+        },
+        {
+            "id": 251,
+            "text": "Tung's lying low 'cause of Therese - Voerman, you know her? Anyway, word is Therese and Tung are feuding - I don't know the details. My take's that Tung think's he's about to get whacked, so he's gone underground 'til Therese calls it off.",
+            "answers": [
+                252
+            ],
+            "effect": "GetQuest(\"Mercurio\") = 2"
+        },
+        {
+            "id": 261,
+            "text": "If you want to put that warehouse into orbit anytime soon, you're going to have to get Therese to call off the feud.",
+            "answers": [
+                262,
+                263
+            ],
+            "effect": ""
+        },
+        {
+            "id": 271,
+            "text": "She's the woman around here. Power player. Nice looking broad for a dead chick, but, uh, personality like stone.",
+            "answers": [
+                272,
+                273,
+                274
+            ],
+            "effect": "G.Mercurio_Jeanette = 1"
+        },
+        {
+            "id": 281,
+            "text": "Therese. . .Therese I don't like but I can respect her. Jeanette's different. I don't know what to make of her. She's a little, you know, in the head. I know Therese is, well, like you, and I would think so's Jeanette, but I hear rumors about her. . .",
+            "answers": [
+                282,
+                283,
+                284,
+                285,
+                286
+            ],
+            "effect": ""
+        },
+        {
+            "id": 291,
+            "text": "Alright. . .Jeanette. Gotta' body built for bedrooms. And I got close acquaintances says they conquered that territory. But I asked the main man and. . .he says you types, you know, can't or don't, uh, do that kind of thing. . .anyway, whatever she is, I hear Jeanette's a wild girl.",
+            "answers": [
+                292,
+                293
+            ],
+            "effect": ""
+        },
+        {
+            "id": 301,
+            "text": "Call me old-fashioned, but I just can't talk about that kind of thing  in front of a woman.",
+            "answers": [
+                302,
+                303,
+                304
+            ],
+            "effect": ""
+        },
+        {
+            "id": 311,
+            "text": "[Mercurio appears to be dead]. . .",
+            "answers": [
+                312,
+                313,
+                314
+            ],
+            "effect": ""
+        },
+        {
+            "id": 321,
+            "text": "Specifically?",
+            "answers": [
+                322,
+                323,
+                324,
+                325,
+                326,
+                327,
+                328,
+                329,
+                330
+            ],
+            "effect": ""
+        },
+        {
+            "id": 331,
+            "text": "Who exactly?",
+            "answers": [
+                332,
+                333,
+                334,
+                335
+            ],
+            "effect": ""
+        },
+        {
+            "id": 341,
+            "text": "I don't know 'em, myself. I'd like to meet the guy - kind of a local legend. He and Therese seem to be contenders for this city. He's crafty, smart guy. I haven't heard anything bad about him.",
+            "answers": [
+                342,
+                343,
+                344,
+                345
+            ],
+            "effect": ""
+        },
+        {
+            "id": 351,
+            "text": "What's to tell? I can get anything anyone wants at anytime. Could say it's my calling. 'Til the Astrolite,  wasn't anything I couldn't handle - well, back East, some shit went down, Big Apple, can't go back. I hate L.A., but whatta you gonna' do?",
+            "answers": [
+                352,
+                353,
+                354,
+                355,
+                356
+            ],
+            "effect": ""
+        },
+        {
+            "id": 361,
+            "text": "Guns? Guy named Trip up the street. He keeps a few pieces under the table, but he doesn't sell to anyone - doesn't have a license. I'll give him a call - he'll sell to you. Least I can do.",
+            "answers": [
+                362,
+                363,
+                364
+            ],
+            "effect": "G.Trip_Know = 3"
+        },
+        {
+            "id": 371,
+            "text": "Once I stop leaking my guts out I'll be back in the game. I can get some specialty stuff but it's gonna take me some time. If you can keep quiet about the Astrolite deal, I'd be willing to supply you.",
+            "answers": [
+                372,
+                373,
+                374
+            ],
+            "effect": ""
+        },
+        {
+            "id": 381,
+            "text": "[Ecstatically]Hey! You. . .what can I say - you preserved my ass. I truly appreciate you not saying anything and I want you to know I take care of those who do me favors. So for now on, you need equipment, info, you come see me. Don't hesitate.",
+            "answers": [
+                382,
+                383,
+                384,
+                385
+            ],
+            "effect": "G.Mercurio_Deal = 1"
+        },
+        {
+            "id": 391,
+            "text": "I tell you, that blood you guys got's an amazing thing. Helped close up a few wounds. What it didn't I had this backalley patch fix. I needed that beating - good reminder not to overestimate my ability. Last time it's gonna happen.",
+            "answers": [
+                392,
+                393,
+                394,
+                395,
+                399,
+                400
+            ],
+            "effect": "G.Mercurio_Health = 1"
+        },
+        {
+            "id": 401,
+            "text": "Oh, by the way. . .I paid a visit to our friends by the beach early this morning. OD-ing's a painful way to go. Especially when your kneecaps are on the floor next to you. What can I say, payback can be a bitch like that.",
+            "answers": [
+                402,
+                403,
+                404,
+                405
+            ],
+            "effect": "G.Beach_Dead = 1"
+        },
+        {
+            "id": 411,
+            "text": "Specifically?",
+            "answers": [
+                412,
+                413,
+                414,
+                415
+            ],
+            "effect": ""
+        },
+        {
+            "id": 421,
+            "text": "Not easy, even in this country. Military grade sniper rifle with .50 caliber ammo can take a man apart at quite a distance. Makes the Secret Service nervous. I can, however, get my hands on a SWAT rifle. Gimme some time.",
+            "answers": [
+                422,
+                423,
+                424,
+                425
+            ],
+            "effect": ""
+        },
+        {
+            "id": 431,
+            "text": "What you want is a Spazz-15. I've got a connection for those, but I haven't seen him in awhile. Think he's in Mexico. Soon as he gets back, I'll have a few of 'em.",
+            "answers": [
+                432,
+                433,
+                434,
+                435
+            ],
+            "effect": ""
+        },
+        {
+            "id": 441,
+            "text": "I get a lot of requests for those. I blame the movies. Everyone thinks they're a riot 'til they set their friends on fire. They're not easy to get a hold of. I got a Vegas connection for those - last time I was out there, I had to shoot my way to the stateline.",
+            "answers": [
+                442,
+                443,
+                444,
+                445
+            ],
+            "effect": ""
+        },
+        {
+            "id": 451,
+            "text": "Only a lunatic'd want that kind of ordnance. That's why they got 'em in Washington.",
+            "answers": [
+                452,
+                453,
+                454,
+                455
+            ],
+            "effect": ""
+        },
+        {
+            "id": 461,
+            "text": "Here's what I got.",
+            "answers": [],
+            "effect": ""
+        },
+        {
+            "id": 471,
+            "text": "Picked up a Spazz-15 this morning. Cleaned, oiled and just waiting to put a hole through something. You interested?",
+            "answers": [
+                472,
+                473,
+                474,
+                475
+            ],
+            "effect": "G.Mercurio_Spas = 1"
+        },
+        {
+            "id": 481,
+            "text": "Anything I can do for you tonight?",
+            "answers": [
+                482,
+                483,
+                484,
+                485
+            ],
+            "effect": ""
+        },
+        {
+            "id": 491,
+            "text": "Concerning?",
+            "answers": [
+                492,
+                493,
+                494,
+                495
+            ],
+            "effect": ""
+        },
+        {
+            "id": 501,
+            "text": "Who exactly?",
+            "answers": [
+                502,
+                503,
+                504,
+                505,
+                506,
+                507,
+                508,
+                509,
+                510,
+                511,
+                519,
+                520
+            ],
+            "effect": ""
+        },
+        {
+            "id": 521,
+            "text": "Always a pleasure. What's tonight's order?",
+            "answers": [
+                522,
+                523,
+                524
+            ],
+            "effect": ""
+        },
+        {
+            "id": 531,
+            "text": "You haven't been doing this too long, have you? The Sabbat, as I understand it, are your typical, power-hungry movie monsters.  They specialize in causing grief.  I've tangled with their like - let me tell you, I didn't enjoy it.",
+            "answers": [
+                532
+            ],
+            "effect": ""
+        },
+        {
+            "id": 541,
+            "text": "Only've seen him a few times. Way I understand it, guy's untouchable. And I've never seen him without his muscle, that Sheriff. Just so you understand, my loyalties are all but written in blood, so my opinion of the guy is moot.",
+            "answers": [
+                542,
+                543,
+                544,
+                545
+            ],
+            "effect": "G.Mercurio_Prince = 1"
+        },
+        {
+            "id": 551,
+            "text": "Your typical, bloodthirsty movie villian variety vampire.  A few years back, I was on bodyguard duty for one of the boys. Me, a couple 'a  ghouls, and some young vampire types like you.  The Sabbat hit us, tried to pull a dine and dash.  Just two of us walked away, and one was the elder.",
+            "answers": [
+                552,
+                553,
+                554,
+                555
+            ],
+            "effect": "G.Mercurio_Sabbat = 1"
+        },
+        {
+            "id": 561,
+            "text": "Nines? I never actually met him, but I've been hearing about him for years. His operation's crude, but those Anarchs are mad dog vicious when they need to be.  City's full of 'em. They are none too friendly with the Camarilla, so be careful around 'em.",
+            "answers": [
+                562,
+                563,
+                564,
+                565
+            ],
+            "effect": "G.Mercurio_Nines = 1"
+        },
+        {
+            "id": 571,
+            "text": "Big, silent, stone cold palooka. Never've seen 'em in action but I hear things. Hear he's the last thing you see if you get on LaCroix's bad side. Say he fights like the devil. Not the kind of guy I'm going to look in the eye, you know?",
+            "answers": [
+                572,
+                573,
+                574,
+                575
+            ],
+            "effect": "G.Mercurio_Sheriff = 1"
+        },
+        {
+            "id": 581,
+            "text": "Gary? Sorry, name doesn't ring a bell.",
+            "answers": [
+                582,
+                583,
+                584,
+                585
+            ],
+            "effect": "G.Mercurio_Gary = 1"
+        },
+        {
+            "id": 591,
+            "text": "Isaac's a cool customer. Got that old school, no nonsense kind of swagger. Not too many like him anymore. He wears his animosity towards the Camarilla on his sleeve. Shame. Guy like that could've been an asset.",
+            "answers": [
+                592,
+                593,
+                594,
+                595
+            ],
+            "effect": "G.Mercurio_Isaac == 1"
+        },
+        {
+            "id": 601,
+            "text": "You're talkin' about the Kuei-Jin. Like you types, but different. Anarchs'd just finished fighting 'em when the Camarilla came to town. Let me give you some advice - stay out of Chinatown 'til they've raised our flag in those parts.",
+            "answers": [
+                602,
+                603,
+                604,
+                605
+            ],
+            "effect": "G.Mercurio_Kuei = 1"
+        },
+        {
+            "id": 611,
+            "text": "RPG house, not in L.A., it's in Irvine, little south. Tim Cain, Leonard Boyarsky, and Jason Anderson are the major players. Working on a secret project, I don't know much about it. Camarilla's concerned they know too much.",
+            "answers": [
+                612,
+                613,
+                614,
+                615
+            ],
+            "effect": ""
+        },
+        {
+            "id": 621,
+            "text": "Went downtown to get my fix. When I went up to the top of the tower, I could hear LaCroix shouting from down the hall. Seems pretty disturbed about this sarcophagus business. Glad I'm not wrapped up in it.",
+            "answers": [
+                622
+            ],
+            "effect": "G.Mercurio_Fix = 1"
+        },
+        {
+            "id": 631,
+            "text": "My Vegas connection paid me a visit this afternoon. Popped his trunk and, whadda you know, had a flamethrower and a few tanks of spare fuel. It's yours if you want it, but uh, ain't you flammable?",
+            "answers": [
+                632,
+                633,
+                634
+            ],
+            "effect": "G.Mercurio_Flame = 1"
+        },
+        {
+            "id": 641,
+            "text": "Prepared a little number called a Dragon's Breath.  It's a modified sawed-off, fires phosphorous shells. Personally, it's the only weapon I carry when I travel through Sabbat country.",
+            "answers": [
+                642,
+                643,
+                644
+            ],
+            "effect": "G.Mercurio_Dragon = 1"
+        },
+        {
+            "id": 651,
+            "text": "Took a trip to see a friend, he's a quartermaster down at a police station in O.C. Guy's been miffed about a pay freeze, so he's agreed to start filling my wish list for a cut. Got a SWAT rifle out of this trip. Interested?",
+            "answers": [
+                652,
+                653,
+                654,
+                655
+            ],
+            "effect": "G.Mercurio_Swat = 1"
+        },
+        {
+            "id": 661,
+            "text": "You might like this. Now, this is not your everyday ordinary pop gun. Only a few people ever get their hands on one of these. Take a look.",
+            "answers": [
+                662,
+                663,
+                664,
+                665
+            ],
+            "effect": "G.Mercurio_Mgun = 1; G.Mercurio_Friend = 1"
+        },
+        {
+            "id": 671,
+            "text": "You'd betray your own kind? That's the word. Now, I've been given the order to kill you on sight. . .but I do owe you my life, and from what I've heard, I've got no chance against you. I'll sell you what you need. But after tonight. . .never again.",
+            "answers": [
+                672,
+                673,
+                674,
+                675
+            ],
+            "effect": "G.Mercurio_Traitor = 1; G.Mercurio_Friend = 0"
+        },
+        {
+            "id": 681,
+            "text": "The word came down that there's a party in Chinatown and you're bringing the fireworks.  New Year's comin' early.  Stock up and good luck.",
+            "answers": [
+                682,
+                683,
+                684
+            ],
+            "effect": ""
+        },
+        {
+            "id": 691,
+            "text": "Word is you turned your back on the Camarilla. I don't understand. I've served these people for thirty years and they've always treated me well. I think you're making a big mistake. But I'm not going to stop you. I've got no death wish.",
+            "answers": [
+                692,
+                693,
+                694,
+                695
+            ],
+            "effect": "G.Mercurio_Anarch = 1; G.Mercurio_Friend = 0"
+        },
+        {
+            "id": 701,
+            "text": "Santa Monica's quiet mostly. That is, 'til you came to town. Not a lot of operators or police here, which is why I like it. Not a beach person personally, but there's some beautiful sunsets. Guess you wouldn't be interested in that, though.",
+            "answers": [
+                702,
+                703,
+                704,
+                706,
+                707,
+                708,
+                709
+            ],
+            "effect": ""
+        },
+        {
+            "id": 711,
+            "text": "Downtown's a mess, always has been. I get called down there sometimes. Nines' people, LaCroix's people, lot of tension in the air. Lot of drugs and a lot of crime. Sometimes I offload extra inventory, but I avoid downtown when I can.",
+            "answers": [
+                712,
+                713,
+                714,
+                715
+            ],
+            "effect": ""
+        },
+        {
+            "id": 721,
+            "text": "Hollywood's been good to me. Lot of my business comes from Hollywood. Guy named Isaac runs the show. Real legend. Camarilla's got no presence to speak of there. Stop by the graveyard. Good customer of mine works it.",
+            "answers": [
+                722,
+                723,
+                724,
+                725
+            ],
+            "effect": ""
+        },
+        {
+            "id": 731,
+            "text": "I don't go to Chinatown. Nobody who does comes back. Something going on there with Kuei-Jin. I don't understand, nor do I need to. Stay out's best advice I can give.",
+            "answers": [
+                732,
+                733,
+                734,
+                735
+            ],
+            "effect": ""
+        },
+        {
+            "id": 741,
+            "text": "Right, you're straight off the bus. . .Once a month I get fed vampire blood. Heals me faster, makes me stronger than a normal human. I don't age. By looking at me, you wouldn't realize it, but I'm almost sixty.",
+            "answers": [
+                742,
+                743,
+                745,
+                746,
+                747
+            ],
+            "effect": "G.Mercurio_Ghoul = 1"
+        },
+        {
+            "id": 751,
+            "text": "I blew it. . .believe me, I know. In more ways than you can imagine. But you gotta listen to me - anyone finds out I. . .I'm a dead man. Keep quiet about this and I can get you what you need - guns, ammo. . .anything. You gotta trust me.",
+            "answers": [
+                752,
+                760
+            ],
+            "effect": ""
+        },
+        {
+            "id": 761,
+            "text": "Those small-time sons of bitches live out in a dump on the beach. Four or five of 'em. The one's got the explosives is Dennis. Got my money too, that prick!",
+            "answers": [
+                762,
+                763,
+                764
+            ],
+            "effect": ""
+        },
+        {
+            "id": 771,
+            "text": "What? Unnnggh! What're you talking about? You crazy or something?",
+            "answers": [
+                772,
+                773
+            ],
+            "effect": ""
+        },
+        {
+            "id": 781,
+            "text": "[Shakes head]Unnghh. Mercurio, if that's what you mean. Ah, shit. . .you're Malkavian, aren't you? Damn it, that's the last thing I need. I'm bleeding all over the carpet, and I can't even understand what the hell you're saying. . .",
+            "answers": [
+                782
+            ],
+            "effect": "G.Mercurio_Know = 1"
+        },
+        {
+            "id": 791,
+            "text": "Hmmm. I don't think I know who you're talking about...",
+            "answers": [
+                792,
+                793,
+                794,
+                795
+            ],
+            "effect": "G.Mercurio_Gary = 1"
+        },
+        {
+            "id": 801,
+            "text": "Laying in a pool of my own blood and you want friggin' directions, right, okay - Down the street, in the parking garage, stairs down to the beach. . . on the right. . . [grunts]those better not be some of my last words. . .",
+            "answers": [
+                802,
+                803,
+                804
+            ],
+            "effect": ""
+        },
+        {
+            "id": 811,
+            "text": "There's no need to be such a friggin' prick. . .uhh. . . I was just surprised. I could've taken those guys. . .",
+            "answers": [
+                812,
+                813,
+                814
+            ],
+            "effect": ""
+        },
+        {
+            "id": 821,
+            "text": "Damn! I could have used that money to buy myself some new kidneys.",
+            "answers": [
+                822,
+                823
+            ],
+            "effect": ""
+        },
+        {
+            "id": 831,
+            "text": "I'm lyin' here bleeding to death and you're cracking wise? I don't need this crap.",
+            "answers": [
+                832,
+                833
+            ],
+            "effect": ""
+        },
+        {
+            "id": 841,
+            "text": "Alright, alright! Jesus, you'd think you were the one layin here with his guts hanging out. It was that fuckin' chemist! Guy mixes up speed, his crew sells it. Occasionally, he does explosives. I set up a drop.",
+            "answers": [
+                842
+            ],
+            "effect": ""
+        },
+        {
+            "id": 851,
+            "text": "Rat fuckin' bastard - want to see me squirm? Well, fuck you! Soon as this deal is settled for LaCroix, you and me, we're gonna straighten some things out.",
+            "answers": [
+                860
+            ],
+            "effect": "SetQuest(\"Astrolite\",4); SetQuest(\"Mercurio\",1)"
+        },
+        {
+            "id": 861,
+            "text": "[Angry, exerting himself]If I could get off this couch. . . uhhh",
+            "answers": [
+                870
+            ],
+            "effect": "G.Mercurio_Combat = 1"
+        },
+        {
+            "id": 871,
+            "text": "Unh...I'm...I'm Mercurio. You're the guy LaCroix sent to pick up the explosives - the Astrolite? [Howl of pain]",
+            "answers": [
+                873,
+                874
+            ],
+            "effect": ""
+        },
+        {
+            "id": 881,
+            "text": "[Pissed off] You...you fuck! They...uhhh...they live on a cliff above the beach...you gotta go through the parking garage to get there. I hope they cave your lousy skull in, you prick!",
+            "answers": [
+                882,
+                883
+            ],
+            "effect": ""
+        },
+        {
+            "id": 891,
+            "text": "[resigned, angry but calm] Soon as this deal is settled for LaCroix, you and me, we're gonna straighten some things out.",
+            "answers": [
+                900
+            ],
+            "effect": "SetQuest(\"Astrolite\",4); SetQuest(\"Mercurio\",1)"
+        },
+        {
+            "id": 901,
+            "text": "[Takes a deep breath]Unh. . .",
+            "answers": [
+                910
+            ],
+            "effect": ""
+        },
+        {
+            "id": 911,
+            "text": "[reserved, but pissed] I see you made it back in one piece. You got the Astrolite, I take it? Good, good. That'll save my ass where LaCroix's concerned.",
+            "answers": [
+                918,
+                919
+            ],
+            "effect": ""
+        },
+        {
+            "id": 921,
+            "text": "Amazing what a couple drops of vamp blood can do to a man. Real powerful stuff.",
+            "answers": [
+                922
+            ],
+            "effect": ""
+        },
+        {
+            "id": 931,
+            "text": "You know, while you were gone I did a bit of thinking. See, I don't want to risk some loudmouth, smart ass upstart going and making me look bad.  So in a few minutes, I'm going to break the news to LaCroix that the kid he sent never made it out alive.",
+            "answers": [
+                939
+            ],
+            "effect": ""
+        },
+        {
+            "id": 941,
+            "text": "I just wanted to make sure you knew my appreciation. And like I said before, someone needs something, I can get it. This boat, for example.",
+            "answers": [
+                942
+            ],
+            "effect": ""
+        },
+        {
+            "id": 951,
+            "text": "Oh, by the way. . .I paid a visit to our friends on the cliff up there early this morning. OD-ing's a painful way to go. Especially when your kneecaps are on the floor next to you. What can I say, payback can be a bitch like that.",
+            "answers": [
+                952,
+                953,
+                954,
+                955
+            ],
+            "effect": "G.Beach_Dead = 1"
+        },
+        {
+            "id": 961,
+            "text": "[Ecstatically]Hey! You. . .what can I say - you preserved my ass. I truly appreciate you not saying anything and I want you to know I take care of those who do me favors. So for now on, you need equipment, info, you come see me at my apartment. Don't hesitate.",
+            "answers": [
+                962,
+                963,
+                964,
+                965
+            ],
+            "effect": "G.Mercurio_Deal = 1"
+        },
+        {
+            "id": 971,
+            "text": "You need to make some place disappear, a warehouse. Looks to be a Sabbat interest.",
+            "answers": [
+                972,
+                973,
+                974
+            ],
+            "effect": ""
+        },
+        {
+            "id": 981,
+            "text": "She and her sister - Jeanette - run the Asylum. Some freaky customers frequent that  place. I try not to do business there.",
+            "answers": [
+                983,
+                984,
+                985,
+                990
+            ],
+            "effect": ""
+        },
+        {
+            "id": 991,
+            "text": "",
+            "answers": [],
+            "effect": ""
+        }
+    ],
+    "answers": [
+        {
+            "id": 2,
+            "text": "Are you Mercurio?",
+            "react": 31,
+            "condition": "G.Read_Email == 0",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 3,
+            "text": "You want me to call an ambulance?",
+            "react": 11,
+            "condition": "true and G.Read_Email == 1",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 4,
+            "text": "What happened to you?",
+            "react": 71,
+            "condition": "true and G.Read_Email == 1",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 5,
+            "text": "Are you the fleet-footed god?",
+            "react": 781,
+            "condition": "false",
+            "effect": "",
+            "malk_text": "Are you the fleet-footed god?"
+        },
+        {
+            "id": 6,
+            "text": "Who are you?",
+            "react": 871,
+            "condition": "true and G.Read_Email == 0",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 12,
+            "text": "Are you Mercurio?",
+            "react": 31,
+            "condition": "G.Mercurio_Know == 0 and true",
+            "effect": "",
+            "malk_text": "Are you Mercurio?"
+        },
+        {
+            "id": 13,
+            "text": "What happened to you?",
+            "react": 71,
+            "condition": "true",
+            "effect": "",
+            "malk_text": "What happened?"
+        },
+        {
+            "id": 14,
+            "text": "You look pretty bad. You sure?",
+            "react": 21,
+            "condition": "true",
+            "effect": "",
+            "malk_text": "You look pretty bad. You sure?"
+        },
+        {
+            "id": 15,
+            "text": "Is it you, great Mercury?",
+            "react": 781,
+            "condition": "G.Mercurio_Know == 0 and false",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 16,
+            "text": "Tell me your tale. . .",
+            "react": 71,
+            "condition": "false",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 17,
+            "text": "Perhaps they could bring you a bearclaw. . .",
+            "react": 21,
+            "condition": "false",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 22,
+            "text": "Are you Mercurio?",
+            "react": 31,
+            "condition": "G.Mercurio_Know == 0 and true",
+            "effect": "",
+            "malk_text": "Are you Mercurio?"
+        },
+        {
+            "id": 23,
+            "text": "What happened to you?",
+            "react": 71,
+            "condition": "true",
+            "effect": "",
+            "malk_text": "What happened to you?"
+        },
+        {
+            "id": 24,
+            "text": "Is it you, great Mercury?",
+            "react": 781,
+            "condition": "G.Mercurio_Know == 0 and false",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 25,
+            "text": "Tell me your tale. . .",
+            "react": 71,
+            "condition": "false",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 32,
+            "text": "Stay with me. What happened?",
+            "react": 71,
+            "condition": "G.Mercurio_Ask == 0",
+            "effect": "",
+            "malk_text": "Stay with me. What happened?"
+        },
+        {
+            "id": 33,
+            "text": "You need to tell me what happened, Mercurio.",
+            "react": 71,
+            "condition": "G.Mercurio_Ask == 1",
+            "effect": "",
+            "malk_text": "You need to tell me what happened, Mercurio."
+        },
+        {
+            "id": 34,
+            "text": "You want me to call an ambulance?",
+            "react": 11,
+            "condition": "G.Mercurio_Ambulance == 0",
+            "effect": "",
+            "malk_text": "You want me to call an ambulance?"
+        },
+        {
+            "id": 35,
+            "text": "Would you stop crying like a girl and tell me what happened?",
+            "react": 841,
+            "condition": "",
+            "effect": "G.Mercurio_Bad = 1",
+            "malk_text": ""
+        },
+        {
+            "id": 42,
+            "text": "You're Mercurio?",
+            "react": 31,
+            "condition": "G.Mercurio_Know == 0",
+            "effect": "",
+            "malk_text": "You're Mercurio?"
+        },
+        {
+            "id": 43,
+            "text": "Are you going to tell me what happened or not?",
+            "react": 71,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Are you going to tell me what happened or not?"
+        },
+        {
+            "id": 52,
+            "text": "Alright. I won't say anything. Where are those sons of bitches?",
+            "react": 761,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Where are the demons who attacked you, Mercury?"
+        },
+        {
+            "id": 53,
+            "text": "What's my silence worth to you?",
+            "react": 61,
+            "condition": "",
+            "effect": "",
+            "malk_text": "To close my mouth requires coinage."
+        },
+        {
+            "id": 54,
+            "text": "Tough shit. Tell me where the Astrolite is.",
+            "react": 881,
+            "condition": "G.Mercurio_Bad == 2",
+            "effect": "G.Mercurio_Bad = 3",
+            "malk_text": "You are a memory as soon as I have the boom-boom."
+        },
+        {
+            "id": 55,
+            "text": "Tough shit. Tell me where the Astrolite is.",
+            "react": 61,
+            "condition": "G.Mercurio_Bad == 1",
+            "effect": "",
+            "malk_text": "You are a memory as soon as I have the boom-boom."
+        },
+        {
+            "id": 62,
+            "text": "Fair enough. Now where's the Astrolite?",
+            "react": 761,
+            "condition": "",
+            "effect": "",
+            "malk_text": "That price is righteous. Where be the boom-boom?"
+        },
+        {
+            "id": 63,
+            "text": "I'm not promising anything. I need that Astrolite - where is it?",
+            "react": 761,
+            "condition": "",
+            "effect": "G.Mercurio_Pissed = 1",
+            "malk_text": "It is unclear which way my mind blows. The boom-boom?"
+        },
+        {
+            "id": 64,
+            "text": "That's not good enough. Now tell me where the Astrolite is!",
+            "react": 881,
+            "condition": "",
+            "effect": "G.Mercurio_Bad = 3",
+            "malk_text": "My ears are deaf to your wailing. Boom-boom now!"
+        },
+        {
+            "id": 72,
+            "text": "Cut the crap and tell me who did this or I'll finish the job!",
+            "react": 841,
+            "condition": "",
+            "effect": "G.Mercurio_Bad = 1",
+            "malk_text": "Reveal your clumsy assassins or I will finish their task."
+        },
+        {
+            "id": 73,
+            "text": "It's a broken bottle. Now, tell me what happened to you.",
+            "react": 81,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Hippocrates is not my forefather. Who broke you, Mercury?"
+        },
+        {
+            "id": 74,
+            "text": "Yep, that's a rib. I'd say you've got 5 minutes to live, tops.",
+            "react": 831,
+            "condition": "",
+            "effect": "",
+            "malk_text": "You are a silly dying man."
+        },
+        {
+            "id": 82,
+            "text": "(Auto-Link)",
+            "react": 91,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 92,
+            "text": "(Auto-Link)",
+            "react": 101,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 102,
+            "text": "You don't have the Astrolite?",
+            "react": 111,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Do you have the boom-boom?"
+        },
+        {
+            "id": 103,
+            "text": "Where are these bastards?",
+            "react": 761,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Where are the demons who attacked you, Mercury?"
+        },
+        {
+            "id": 104,
+            "text": "You idiot! The prince will want to hear about this!",
+            "react": 51,
+            "condition": "G.Mercurio_Bad == 0",
+            "effect": "G.Mercurio_Bad = 1",
+            "malk_text": "You're a mouse playing among giants. The prince shall know."
+        },
+        {
+            "id": 105,
+            "text": "You idiot! The prince will want to hear about this!",
+            "react": 51,
+            "condition": "G.Mercurio_Bad == 1",
+            "effect": "G.Mercurio_Bad = 2",
+            "malk_text": "You're a mouse playing among giants. The prince shall know."
+        },
+        {
+            "id": 106,
+            "text": "Vamp blood?",
+            "react": 741,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Of what blood do you speak?"
+        },
+        {
+            "id": 112,
+            "text": "How do I get there?",
+            "react": 801,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me where my feet must travel."
+        },
+        {
+            "id": 122,
+            "text": "I'll go get the Astrolite.",
+            "react": 141,
+            "condition": "G.Mercurio_Get == 0",
+            "effect": "",
+            "malk_text": "I'll get the boom-boom and your gold, Mercury."
+        },
+        {
+            "id": 123,
+            "text": "I'll go get the Astrolite.  I'll be back.",
+            "react": 0,
+            "condition": "G.Mercurio_Get == 1",
+            "effect": "",
+            "malk_text": "I'll get the boom-boom and your gold, Mercury."
+        },
+        {
+            "id": 124,
+            "text": "Is there anything I can do to help you?",
+            "react": 131,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My assistance may help you greatly?"
+        },
+        {
+            "id": 125,
+            "text": "Don't go anywhere, slick. I'll be back, soon as I've done your job for you.",
+            "react": 141,
+            "condition": "G.Mercurio_Get == 0",
+            "effect": "G.Mercurio_Pissed = 1",
+            "malk_text": "The moon shows the path is best taken. Farewell. . ."
+        },
+        {
+            "id": 126,
+            "text": "Don't go anywhere, slick. I'll be back, soon as I've done your job for you.",
+            "react": 0,
+            "condition": "G.Mercurio_Get == 1",
+            "effect": "G.Mercurio_Pissed = 1",
+            "malk_text": "The moon shows the path is best taken. Farewell. . ."
+        },
+        {
+            "id": 127,
+            "text": "I can't believe the prince trusted an idiot like you.",
+            "react": 811,
+            "condition": "",
+            "effect": "",
+            "malk_text": "You wear the mottled mantle of failure. Death should have claimed you. . ."
+        },
+        {
+            "id": 132,
+            "text": "I'll bring something back for you.",
+            "react": 141,
+            "condition": "not HasItem(\"item_g_drugs_morphine_bottle\") and G.Mercurio_Asked == 0 and G.Mercurio_Get == 0",
+            "effect": "SetQuest(\"Morphine\",1)",
+            "malk_text": "I shall return with some numbness, Mercury."
+        },
+        {
+            "id": 133,
+            "text": "I already have some. Hold Still.",
+            "react": 161,
+            "condition": "G.Mercurio_Aid == 0 and HasItem(\"item_g_drugs_morphine_bottle\")",
+            "effect": "pc.RemoveItem(\"item_g_drugs_morphine_bottle\"); FindPlayer().HumanityAdd(1); G.Mercurio_Aid = 1; pc.AwardExperience(\"Astro03\")",
+            "malk_text": "I have some numb-juice."
+        },
+        {
+            "id": 134,
+            "text": "I'll bring something back for you.",
+            "react": 0,
+            "condition": "not HasItem(\"item_g_drugs_morphine_bottle\") and G.Mercurio_Asked == 0 and G.Mercurio_Get == 1",
+            "effect": "SetQuest(\"Morphine\",1)",
+            "malk_text": "I shall return with some numbness, Mercury."
+        },
+        {
+            "id": 135,
+            "text": "I'll think about it.",
+            "react": 141,
+            "condition": "G.Mercurio_Asked == 0 and G.Mercurio_Get == 0",
+            "effect": "SetQuest(\"Morphine\",1)",
+            "malk_text": "Only the night will tell where I wander. . ."
+        },
+        {
+            "id": 136,
+            "text": "Suffer. You earned it.",
+            "react": 751,
+            "condition": "G.Mercurio_Asked == 0",
+            "effect": "",
+            "malk_text": "You deserve the pain that has found you. . ."
+        },
+        {
+            "id": 137,
+            "text": "I'll bring something back for you.",
+            "react": 0,
+            "condition": "not HasItem(\"item_g_drugs_morphine_bottle\") and G.Mercurio_Asked == 1",
+            "effect": "SetQuest(\"Morphine\",1); npc.SetDisposition(\"Dead\",1); SetQuest(\"Morphine\",1)",
+            "malk_text": "I shall return with some numbness, Mercury."
+        },
+        {
+            "id": 138,
+            "text": "I'll think about it.",
+            "react": 0,
+            "condition": "G.Mercurio_Asked == 0 and G.Mercurio_Get == 1",
+            "effect": "SetQuest(\"Morphine\",1)",
+            "malk_text": "Only the night will tell where I wander. . ."
+        },
+        {
+            "id": 142,
+            "text": "Good to know. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "Your words will be weighed, Mercury. Farewell. . ."
+        },
+        {
+            "id": 144,
+            "text": "Help me out? Look at you! You're worthless! Wait until the prince hears this.",
+            "react": 851,
+            "condition": "G.Mercurio_Pissed == 1",
+            "effect": "",
+            "malk_text": "My mouth will speak what it chooses."
+        },
+        {
+            "id": 145,
+            "text": "I'll think about it. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "Hiding this from the voices won't be easy. I will try. I'm not here."
+        },
+        {
+            "id": 152,
+            "text": "I brought you some morphine. Hold Still.",
+            "react": 161,
+            "condition": "G.Mercurio_Aid == 0 and HasItem(\"item_g_drugs_morphine_bottle\") and pc.GetQuestState(\"Morphine\") > 0",
+            "effect": "pc.RemoveItem(\"item_g_drugs_morphine_bottle\"); SetQuest(\"Morphine\",3)",
+            "malk_text": "I have some numb-juice."
+        },
+        {
+            "id": 153,
+            "text": "I brought you some morphine. Hold Still.",
+            "react": 161,
+            "condition": "G.Mercurio_Aid == 0 and HasItem(\"item_g_drugs_morphine_bottle\") and pc.GetQuestState(\"Morphine\") == 0",
+            "effect": "pc.RemoveItem(\"item_g_drugs_morphine_bottle\")",
+            "malk_text": "I have some numb-juice."
+        },
+        {
+            "id": 154,
+            "text": "I got the Astrolite back.",
+            "react": 171,
+            "condition": "GetQuest(\"Mercurio\") == 2 and HasItem(\"astrolite\")",
+            "effect": "",
+            "malk_text": "I got the boom-boom."
+        },
+        {
+            "id": 155,
+            "text": "I had some questions about Santa Monica.",
+            "react": 321,
+            "condition": "GetQuest(\"Mercurio\") == 2",
+            "effect": "",
+            "malk_text": "Tell me of the lady by the sea. . ."
+        },
+        {
+            "id": 156,
+            "text": "You're in a lot of pain. Is there anything I can do for you?",
+            "react": 131,
+            "condition": "G.Mercurio_Aid == 0 and GetQuest(\"Morphine\") == 0",
+            "effect": "G.Mercurio_Asked = 1",
+            "malk_text": "That flesh is screaming. Can I do something to make it stop?"
+        },
+        {
+            "id": 160,
+            "text": "Try not to die. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "Keep your heart pumping. Farewell."
+        },
+        {
+            "id": 162,
+            "text": "You're welcome. I'll come back when I have the Astrolite. Goodbye.",
+            "react": 0,
+            "condition": "G.Mercurio_Astro == 0",
+            "effect": "",
+            "malk_text": "I will return with the boom-boom."
+        },
+        {
+            "id": 163,
+            "text": "I got the Astrolite back.",
+            "react": 171,
+            "condition": "GetQuest(\"Mercurio\") == 1 and HasItem(\"astrolite\")",
+            "effect": "",
+            "malk_text": "I got the boom-boom."
+        },
+        {
+            "id": 164,
+            "text": "I had some questions about Santa Monica.",
+            "react": 321,
+            "condition": "GetQuest(\"Mercurio\") == 2",
+            "effect": "",
+            "malk_text": "Tell me of the lady by the sea. . ."
+        },
+        {
+            "id": 165,
+            "text": "Hope that helped. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 172,
+            "text": "No. That's not my style.",
+            "react": 181,
+            "condition": "G.Beachhouse_Bodycount == 0",
+            "effect": "",
+            "malk_text": "I blew out no flames. . ."
+        },
+        {
+            "id": 173,
+            "text": "Yes. They left me no choice.",
+            "react": 191,
+            "condition": "Humanity 7 & G.Beachhouse_Bodycount == 6",
+            "effect": "",
+            "malk_text": "I sent them to the other side. . ."
+        },
+        {
+            "id": 174,
+            "text": "Damn straight I did. You should have seen them suffer.",
+            "react": 191,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Like flea-ridden, rabid mutts. . ."
+        },
+        {
+            "id": 175,
+            "text": "Any that were in my way.",
+            "react": 191,
+            "condition": "G.Beachhouse_Bodycount > 0 and G.Beachhouse_Bodycount < 6",
+            "effect": "",
+            "malk_text": "Only those that fell on my shadow."
+        },
+        {
+            "id": 182,
+            "text": "I did. Here it is.",
+            "react": 201,
+            "condition": "G.Mercurio_Loot == 1 and pc.CurrentMoney() >= 250",
+            "effect": "pc.MoneyRemove(250)",
+            "malk_text": "Here is your gold, Mercury. . ."
+        },
+        {
+            "id": 183,
+            "text": "Your money? Yes! Yes, I did. Here it is.",
+            "react": 201,
+            "condition": "G.Mercurio_Loot == 0 and pc.CurrentMoney() >= 250",
+            "effect": "pc.MoneyRemove(250)",
+            "malk_text": "Your gold? YES! Here is your gold, Mercury. . ."
+        },
+        {
+            "id": 184,
+            "text": "No, sorry. I didn't find it.",
+            "react": 821,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My hands are as empty as my head. . ."
+        },
+        {
+            "id": 192,
+            "text": "I did. Here it is.",
+            "react": 201,
+            "condition": "G.Mercurio_Loot == 1 and pc.CurrentMoney() >= 250",
+            "effect": "pc.MoneyRemove(250)",
+            "malk_text": "Here is your gold, Mercury. . ."
+        },
+        {
+            "id": 193,
+            "text": "Your money? Yes! Yes, I did. Here it is.",
+            "react": 201,
+            "condition": "G.Mercurio_Loot == 0 and pc.CurrentMoney() >= 250",
+            "effect": "pc.MoneyRemove(250)",
+            "malk_text": "Your gold? YES! Here is your gold, Mercury. . ."
+        },
+        {
+            "id": 194,
+            "text": "No, sorry. I didn't find it.",
+            "react": 821,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My hands are as empty as my head. . ."
+        },
+        {
+            "id": 202,
+            "text": "What am I supposed to do now?",
+            "react": 971,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Where do my feet lead me next?"
+        },
+        {
+            "id": 203,
+            "text": "What's the story with this Astrolite?",
+            "react": 211,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Astrolite is fun, no?"
+        },
+        {
+            "id": 212,
+            "text": "How do I find this place?",
+            "react": 231,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Who tells me where is the house of wares?"
+        },
+        {
+            "id": 213,
+            "text": "What do you know about this warehouse?",
+            "react": 221,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the house of wares. . ."
+        },
+        {
+            "id": 214,
+            "text": "What's a Sabbat?",
+            "react": 531,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I can't fit Sabbat into my cerebrum. . ."
+        },
+        {
+            "id": 222,
+            "text": "Maybe what?",
+            "react": 231,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Yes, fleet-footed one?"
+        },
+        {
+            "id": 232,
+            "text": "What? Why?",
+            "react": 251,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The worm hides in turbid liquids. . ."
+        },
+        {
+            "id": 233,
+            "text": "Is there anyone else who would know?",
+            "react": 241,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Is there anyone else who would know?"
+        },
+        {
+            "id": 234,
+            "text": "Tung. . . I hear this within my head.",
+            "react": 251,
+            "condition": "false",
+            "effect": "",
+            "malk_text": "Tung. . . I hear this within my head."
+        },
+        {
+            "id": 242,
+            "text": "(Auto-Link)",
+            "react": 251,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 252,
+            "text": "(Auto-Link)",
+            "react": 261,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 262,
+            "text": "Where can I find her?",
+            "react": 981,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Where is the dark daughter of Janus?"
+        },
+        {
+            "id": 263,
+            "text": "Aw, shit. . .so what do you know about this Therese chick?",
+            "react": 271,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Voerman. . .Therese?"
+        },
+        {
+            "id": 272,
+            "text": "What can you tell me about Jeanette?",
+            "react": 281,
+            "condition": "",
+            "effect": "",
+            "malk_text": "What can you tell me of the white daughter of Janus?"
+        },
+        {
+            "id": 273,
+            "text": "I had a question about someone else.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint me a picture of someone. . ."
+        },
+        {
+            "id": 274,
+            "text": "I think I'll get going. Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 282,
+            "text": "Rumors?",
+            "react": 291,
+            "condition": "true",
+            "effect": "",
+            "malk_text": "What whispers?"
+        },
+        {
+            "id": 283,
+            "text": "Rumors?",
+            "react": 301,
+            "condition": "not true",
+            "effect": "",
+            "malk_text": "What whispers?"
+        },
+        {
+            "id": 284,
+            "text": "I had a question about someone else.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint me a picture of someone. . ."
+        },
+        {
+            "id": 285,
+            "text": "You said something about \"blood\" before?",
+            "react": 741,
+            "condition": "G.Mercurio_Blood == 0 and G.Story_State == 0",
+            "effect": "G.Mercurio_Blood = 1",
+            "malk_text": "Tell me more of 'that blood'."
+        },
+        {
+            "id": 286,
+            "text": "I see. Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I see. Thanks for the info. Goodbye."
+        },
+        {
+            "id": 292,
+            "text": "I had a question about someone else.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint me a picture of someone. . ."
+        },
+        {
+            "id": 293,
+            "text": "Interesting. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I can't hear you because I'm not here."
+        },
+        {
+            "id": 302,
+            "text": "Call me old-fashioned but I believe a knee to the balls always makes guys talk.",
+            "react": 291,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Refuse me again, and I'll make you my eunuch. . ."
+        },
+        {
+            "id": 303,
+            "text": "I had a question about someone.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint me a picture of someone. . ."
+        },
+        {
+            "id": 304,
+            "text": "I see. I'll get going then. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "You're talking to someone who's already left."
+        },
+        {
+            "id": 312,
+            "text": "Mercurio?",
+            "react": 151,
+            "condition": "GetQuest(\"Astrolite\") != 4",
+            "effect": "",
+            "malk_text": "Have you crossed the dark river, Mercury?"
+        },
+        {
+            "id": 313,
+            "text": "Aw, damn. Did you die on me?",
+            "react": 151,
+            "condition": "GetQuest(\"Astrolite\") != 4",
+            "effect": "",
+            "malk_text": "Wake up, sleepy dead. . ."
+        },
+        {
+            "id": 314,
+            "text": "Hey, loser, get up.",
+            "react": 901,
+            "condition": "GetQuest(\"Astrolite\") == 4",
+            "effect": "",
+            "malk_text": "Wake up, sleepy dead. . ."
+        },
+        {
+            "id": 322,
+            "text": "Tell me about some of the power players in Santa Monica.",
+            "react": 331,
+            "condition": "G.Story_State < 5",
+            "effect": "",
+            "malk_text": "Tell me of the chess pieces on the lady's board. . ."
+        },
+        {
+            "id": 323,
+            "text": "Know where I can score some guns?",
+            "react": 361,
+            "condition": "G.Trip_Know < 4 and G.Mercurio_Aid == 1 and G.Story_State < 5",
+            "effect": "",
+            "malk_text": "I need some boom-sticks."
+        },
+        {
+            "id": 324,
+            "text": "Know where I can score some guns?",
+            "react": 371,
+            "condition": "G.Mercurio_Aid == 0 and G.Story_State < 5",
+            "effect": "",
+            "malk_text": "I need some boom-sticks."
+        },
+        {
+            "id": 325,
+            "text": "Santa Monica",
+            "react": 701,
+            "condition": "G.Story_State > 5",
+            "effect": "",
+            "malk_text": "The lady by the sea. . ."
+        },
+        {
+            "id": 326,
+            "text": "Downtown L.A.",
+            "react": 711,
+            "condition": "G.Story_State > 10",
+            "effect": "",
+            "malk_text": "The court of the jester. . ."
+        },
+        {
+            "id": 327,
+            "text": "Hollywood.",
+            "react": 721,
+            "condition": "G.Story_State >= 35",
+            "effect": "",
+            "malk_text": "A place of celluloid dreams. . ."
+        },
+        {
+            "id": 328,
+            "text": "Chinatown.",
+            "react": 731,
+            "condition": "G.Story_State >= 45",
+            "effect": "",
+            "malk_text": "An eastern stronghold in the west. . ."
+        },
+        {
+            "id": 329,
+            "text": "You said something about \"blood\"?",
+            "react": 741,
+            "condition": "G.Mercurio_Blood == 0 and G.Story_State == 0",
+            "effect": "G.Mercurio_Blood = 1",
+            "malk_text": "Tell me more of 'that blood'."
+        },
+        {
+            "id": 330,
+            "text": "Never mind. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 332,
+            "text": "Therese Voerman.",
+            "react": 271,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Janus' black daughter. . ."
+        },
+        {
+            "id": 333,
+            "text": "Jeanette Voerman.",
+            "react": 281,
+            "condition": "G.Mercurio_Jeanette == 1",
+            "effect": "",
+            "malk_text": "Janus' white daughter. . ."
+        },
+        {
+            "id": 334,
+            "text": "Bertram Tung.",
+            "react": 341,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The worm in his black bath. . ."
+        },
+        {
+            "id": 335,
+            "text": "Yourself.",
+            "react": 351,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The fleet-footed god. . ."
+        },
+        {
+            "id": 342,
+            "text": "I had some other questions about people.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the lady and her people. . ."
+        },
+        {
+            "id": 343,
+            "text": "I had some other questions about places.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the lady and her places. . ."
+        },
+        {
+            "id": 344,
+            "text": "Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "G.Story_State == 0",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 345,
+            "text": "Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "G.Story_State >= 5",
+            "effect": "",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 352,
+            "text": "You said something about \"blood\"?",
+            "react": 741,
+            "condition": "G.Mercurio_Blood == 0 and G.Story_State == 0",
+            "effect": "G.Mercurio_Blood = 1",
+            "malk_text": "Tell me more of 'that blood'."
+        },
+        {
+            "id": 353,
+            "text": "I had some other questions about people.",
+            "react": 331,
+            "condition": "G.Story_State < 5",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 354,
+            "text": "I had some other questions about Santa Monica.",
+            "react": 321,
+            "condition": "G.Story_State < 5",
+            "effect": "",
+            "malk_text": "Tell me of the lady and her places. . ."
+        },
+        {
+            "id": 355,
+            "text": "Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "G.Story_State == 0",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 356,
+            "text": "Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "G.Story_State >= 5",
+            "effect": "",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 362,
+            "text": "I had some other questions about people.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 363,
+            "text": "I had some other questions about Santa Monica.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the lady and her places. . ."
+        },
+        {
+            "id": 364,
+            "text": "Thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 372,
+            "text": "I had some other questions about people.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 373,
+            "text": "I had some other questions about Santa Monica.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the lady and her places. . ."
+        },
+        {
+            "id": 374,
+            "text": "Thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I left before my mouth stopped moving. . ."
+        },
+        {
+            "id": 382,
+            "text": "You look like you're feeling better.",
+            "react": 391,
+            "condition": "G.Mercurio_Health == 0",
+            "effect": "",
+            "malk_text": "How fleet your feet, Mercury?"
+        },
+        {
+            "id": 383,
+            "text": "What are you doing out here, Mercurio?",
+            "react": 941,
+            "condition": "",
+            "effect": "",
+            "malk_text": "What has set great Mercury by the waters?"
+        },
+        {
+            "id": 384,
+            "text": "I might need some equipment for this little trip.",
+            "react": 0,
+            "condition": "IsDead(\"Dennis\")",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 385,
+            "text": "I might need some equipment for this little trip.",
+            "react": 951,
+            "condition": "not IsDead(\"Dennis\")",
+            "effect": "",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 392,
+            "text": "I might need some equipment for this little trip.",
+            "react": 0,
+            "condition": "IsDead(\"Dennis\") and pc.GetQuestState(\"Dane\") < 2",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 393,
+            "text": "I might need some equipment for this little trip.",
+            "react": 951,
+            "condition": "not IsDead(\"Dennis\") and pc.GetQuestState(\"Dane\") < 2",
+            "effect": "",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 394,
+            "text": "I need some info.",
+            "react": 491,
+            "condition": "IsDead(\"Dennis\")",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 395,
+            "text": "I need some info.",
+            "react": 951,
+            "condition": "not IsDead(\"Dennis\") and G.Beach_Dead == 0",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 399,
+            "text": "Good to hear. See you, Mercurio.",
+            "react": 0,
+            "condition": "IsDead(\"Dennis\")",
+            "effect": "",
+            "malk_text": "May the wings on your feet fly you to lighter skies. Farewell."
+        },
+        {
+            "id": 400,
+            "text": "Good to hear. See you, Mercurio.",
+            "react": 951,
+            "condition": "not IsDead(\"Dennis\") and G.Beach_Dead == 0",
+            "effect": "",
+            "malk_text": "May the wings on your feet fly you to lighter skies. Farewell."
+        },
+        {
+            "id": 402,
+            "text": "Definitely. What do you got that might help me out?",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 403,
+            "text": "Uh-huh. I need some info.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 404,
+            "text": "I didn't think it was necessary, but that's your choice. Goodbye, Mercurio.",
+            "react": 0,
+            "condition": "Humanity 6",
+            "effect": "",
+            "malk_text": "Run, run, little Mercury. Farewell."
+        },
+        {
+            "id": 405,
+            "text": "They deserved it. Goodbye, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Mercury can also be the god of war. hmm? I am gone."
+        },
+        {
+            "id": 412,
+            "text": "A sniper rifle.",
+            "react": 421,
+            "condition": "G.Story_State < 65",
+            "effect": "",
+            "malk_text": "A sniper rifle."
+        },
+        {
+            "id": 413,
+            "text": "A combat shotgun.",
+            "react": 431,
+            "condition": "G.Story_State < 35",
+            "effect": "",
+            "malk_text": "A combat shotgun."
+        },
+        {
+            "id": 414,
+            "text": "Grenades.",
+            "react": 441,
+            "condition": "G.Story_State < 45",
+            "effect": "",
+            "malk_text": "Grenades."
+        },
+        {
+            "id": 415,
+            "text": "A tactical nuke.",
+            "react": 451,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "A tactical nuke."
+        },
+        {
+            "id": 422,
+            "text": "I was looking for some other weapons.",
+            "react": 411,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need different boom-sticks. . ."
+        },
+        {
+            "id": 423,
+            "text": "Let's see what you're selling.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Show me your ghoulie goods. . ."
+        },
+        {
+            "id": 424,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 425,
+            "text": "I'll come back when you've got one, thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My mind is somewhere else."
+        },
+        {
+            "id": 432,
+            "text": "I was looking for some other weapons.",
+            "react": 411,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need different boom-sticks. . ."
+        },
+        {
+            "id": 433,
+            "text": "Let's see what you're selling.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Show me your ghoulie goods. . ."
+        },
+        {
+            "id": 434,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 435,
+            "text": "I'll come back when you've got one, thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My mind is somewhere else."
+        },
+        {
+            "id": 442,
+            "text": "I was looking for some other weapons.",
+            "react": 411,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need different boom-sticks. . ."
+        },
+        {
+            "id": 443,
+            "text": "Let's see what you're selling.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Show me your ghoulie goods. . ."
+        },
+        {
+            "id": 444,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 445,
+            "text": "I'll come back when you've got one, thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My mind is somewhere else."
+        },
+        {
+            "id": 452,
+            "text": "I was looking for some other weapons.",
+            "react": 411,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need different boom-sticks. . ."
+        },
+        {
+            "id": 453,
+            "text": "Let's see what you're selling.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Show me your ghoulie goods. . ."
+        },
+        {
+            "id": 454,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 455,
+            "text": "I'll come back when you've got one, thanks. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My mind is somewhere else."
+        },
+        {
+            "id": 472,
+            "text": "Let's see it.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Let me see this crazy spaz. . ."
+        },
+        {
+            "id": 473,
+            "text": "You had me at \"hole\".",
+            "react": 0,
+            "condition": "Humanity -5",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I like oily things that make holes."
+        },
+        {
+            "id": 474,
+            "text": "Maybe another time. I had some questions.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 475,
+            "text": "Not right now. I have to go.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 482,
+            "text": "How are you feeling?",
+            "react": 391,
+            "condition": "G.Mercurio_Health == 0 and G.Story_State < 40",
+            "effect": "",
+            "malk_text": "How fleet your feet, Mercury?"
+        },
+        {
+            "id": 483,
+            "text": "I need some equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 484,
+            "text": "I need some info.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 485,
+            "text": "Nothing right now. See you, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "May the wings on your feet fly you to lighter skies. Farewell."
+        },
+        {
+            "id": 492,
+            "text": "People.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "People."
+        },
+        {
+            "id": 493,
+            "text": "Places.",
+            "react": 321,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "Places."
+        },
+        {
+            "id": 494,
+            "text": "Weapons.",
+            "react": 411,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "Weapons."
+        },
+        {
+            "id": 495,
+            "text": "Nothing right now. See you, Mercurio.",
+            "react": 0,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "Nothing right now. See you, Mercurio."
+        },
+        {
+            "id": 502,
+            "text": "Yourself.",
+            "react": 351,
+            "condition": "G.Story_State > 0 and G.Story_State < 35 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "You, oh fleet-footed one. . ."
+        },
+        {
+            "id": 503,
+            "text": "Prince LaCroix.",
+            "react": 541,
+            "condition": "G.Story_State > 5 and G.Story_State < 40 and G.Mercurio_Prince == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "The Jester in his ivory tower. . ."
+        },
+        {
+            "id": 504,
+            "text": "The Sabbat",
+            "react": 551,
+            "condition": "G.Story_State > 5 and G.Story_State < 50  and G.Mercurio_Sabbat == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "Our dark brethren, the Sabbat. . ."
+        },
+        {
+            "id": 505,
+            "text": "Nines.",
+            "react": 561,
+            "condition": "G.Story_State >= 35  and G.Mercurio_Nines == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "He of the numbered name. . ."
+        },
+        {
+            "id": 506,
+            "text": "The Sheriff.",
+            "react": 571,
+            "condition": "G.Story_State >= 30 and G.Mercurio_Prince == 1 and G.Mercurio_Sheriff == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "The Jester's dog. . ."
+        },
+        {
+            "id": 507,
+            "text": "Gary.",
+            "react": 581,
+            "condition": "G.Story_State > 45 and G.Mercurio_Gary == 0 and true and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "Gary."
+        },
+        {
+            "id": 508,
+            "text": "The once-beautiful worm in his warren. . .",
+            "react": 791,
+            "condition": "G.Story_State > 45 and G.Mercurio_Gary == 0 and false and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "The once-beautiful worm in his warren. . ."
+        },
+        {
+            "id": 509,
+            "text": "Isaac.",
+            "react": 591,
+            "condition": "G.Story_State >= 35  and G.Story_State < 90 and G.Mercurio_Nines == 1 and G.Mercurio_Isaac == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "The tortured artiste. . ."
+        },
+        {
+            "id": 510,
+            "text": "The Kuei-Jin.",
+            "react": 601,
+            "condition": "G.Story_State >= 45 and G.Mercurio_Sabbat == 1 and G.Mercurio_Kuei == 0 and G.Story_State < 100",
+            "effect": "",
+            "malk_text": "The eastern nightmares, the life-eaters. . ."
+        },
+        {
+            "id": 511,
+            "text": "Troika Games.",
+            "react": 611,
+            "condition": "G.Story_State >= 100",
+            "effect": "",
+            "malk_text": "Troika Games."
+        },
+        {
+            "id": 519,
+            "text": "I need some equipment.",
+            "react": 0,
+            "condition": "G.Story_State >= 95",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 520,
+            "text": "That's all for right now. Thanks, Mercurio.",
+            "react": 0,
+            "condition": "G.Story_State < 95",
+            "effect": "",
+            "malk_text": "That's all for right now. Thanks, Mercurio."
+        },
+        {
+            "id": 522,
+            "text": "I need some equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 523,
+            "text": "I need some info.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 524,
+            "text": "Nothing right now. See you, Mercurio.",
+            "react": 0,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "I left right before you said something."
+        },
+        {
+            "id": 532,
+            "text": "Tell me about this warehouse.",
+            "react": 221,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the house of wares. . ."
+        },
+        {
+            "id": 542,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 543,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 544,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 545,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 552,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 553,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 554,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 555,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 562,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 563,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 564,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 565,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 572,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 573,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 574,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 575,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 582,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 583,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 584,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 585,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 592,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 593,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 594,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 595,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 602,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 603,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 604,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 605,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 612,
+            "text": "I had questions about somebody else.",
+            "react": 501,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "I need you to paint a picture of someone. . ."
+        },
+        {
+            "id": 613,
+            "text": "I had questions about something else.",
+            "react": 491,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 614,
+            "text": "I need equipment.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need toys and boom-sticks. . ."
+        },
+        {
+            "id": 615,
+            "text": "Thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "G.Story_State < 100",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 622,
+            "text": "(Auto-Link)",
+            "react": 481,
+            "condition": "",
+            "effect": "",
+            "malk_text": "(Auto-Link)"
+        },
+        {
+            "id": 632,
+            "text": "I don't need no bullets let the motherfuckers burn.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Flame on. . ."
+        },
+        {
+            "id": 633,
+            "text": "I had questions first.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 634,
+            "text": "Not really, but thanks, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "It was time to go."
+        },
+        {
+            "id": 642,
+            "text": "I'd like one of those. Let me see it.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I wish to see this terrible lizard. . ."
+        },
+        {
+            "id": 643,
+            "text": "I had questions first.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 644,
+            "text": "I'll check it out later. See you, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 652,
+            "text": "Oh yeah, and then some.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Am I interested? He don't know me very well, do he?"
+        },
+        {
+            "id": 653,
+            "text": "Headshots were the last thing missing from my life.",
+            "react": 0,
+            "condition": "Humanity -5",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Look out littles flies, now I've got a swatter. . ."
+        },
+        {
+            "id": 654,
+            "text": "I had questions first.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 655,
+            "text": "Not really, but thanks, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here."
+        },
+        {
+            "id": 662,
+            "text": "That looks deadly. I'll definitely take one of those.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I think I'm going to cry. . ."
+        },
+        {
+            "id": 663,
+            "text": "It's all I've ever dreamed about. Gimme.",
+            "react": 0,
+            "condition": "Humanity -5",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "It could not be more beautiful if it launched sharks."
+        },
+        {
+            "id": 664,
+            "text": "I had questions first.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 665,
+            "text": "I definitely don't need one of those. But thanks, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "You don't talk to someone who isn't there."
+        },
+        {
+            "id": 672,
+            "text": "After tonight, you may want to reconsider. Let's see the weapons.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Tell me again when the tower falls. Now show me toys and boom-sticks. . ."
+        },
+        {
+            "id": 673,
+            "text": "That's wise of you not to attack me. Very smart. Let's see the stuff.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Mercury, you'll speed towards your end if your market doesn't open."
+        },
+        {
+            "id": 674,
+            "text": "I still have a few questions.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 675,
+            "text": "I'm going now. Let's hope we don't meet as enemies next time.",
+            "react": 0,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Pray I forget your foolish follies, fleet-footed one. Farewell."
+        },
+        {
+            "id": 682,
+            "text": "Thanks, Mercurio. Let's see the goods.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Show me blow-em-up stuff. . ."
+        },
+        {
+            "id": 683,
+            "text": "I still had a few questions.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 684,
+            "text": "Thanks, but I'm good to go.",
+            "react": 0,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 692,
+            "text": "They tried to have me killed. Nothing personal against you. Now, I need guns.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I turned by back on the jester, not you Mercury. To the blow-em-up stuff. . ."
+        },
+        {
+            "id": 693,
+            "text": "If you're smart you'll switch sides too. Now let me buy some guns.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I'm driving a bandwagon you should jump on. Show me your toys."
+        },
+        {
+            "id": 694,
+            "text": "I still have a few questions.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 695,
+            "text": "I have to go. Don't try and stop me, for your sake.",
+            "react": 0,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "I have to go. Don't try and stop me. For your sake."
+        },
+        {
+            "id": 702,
+            "text": "I had some questions about some other places.",
+            "react": 321,
+            "condition": "G.Story_State > 5",
+            "effect": "",
+            "malk_text": "Tell me of other places. . ."
+        },
+        {
+            "id": 703,
+            "text": "I had some questions about some other things.",
+            "react": 491,
+            "condition": "G.Story_State > 5",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 704,
+            "text": "I need to buy a few things.",
+            "react": 0,
+            "condition": "G.Story_State > 5",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Let us trade more than words. . ."
+        },
+        {
+            "id": 706,
+            "text": "Tell me about some of the power players in Santa Monica.",
+            "react": 331,
+            "condition": "G.Story_State < 5",
+            "effect": "",
+            "malk_text": "Tell me of the chess pieces on the lady's board. . ."
+        },
+        {
+            "id": 707,
+            "text": "Know where I can score some guns?",
+            "react": 361,
+            "condition": "G.Trip_Know < 4 and G.Mercurio_Aid == 1 and G.Story_State < 5",
+            "effect": "",
+            "malk_text": "I need some boom-sticks."
+        },
+        {
+            "id": 708,
+            "text": "Know where I can score some guns?",
+            "react": 371,
+            "condition": "G.Mercurio_Aid == 0 and G.Story_State < 5",
+            "effect": "",
+            "malk_text": "I need some boom-sticks."
+        },
+        {
+            "id": 709,
+            "text": "Thanks for the info, Mercurio. Bye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Your words are echoing in the emptiness where I used to be."
+        },
+        {
+            "id": 712,
+            "text": "I had some questions about some other places.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of other places. . ."
+        },
+        {
+            "id": 713,
+            "text": "I had some questions about some other things.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 714,
+            "text": "I need to buy a few things.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Let us trade more than words. . ."
+        },
+        {
+            "id": 715,
+            "text": "Thanks for the info, Mercurio. Bye.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 722,
+            "text": "I had some questions about some other places.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of other places. . ."
+        },
+        {
+            "id": 723,
+            "text": "I had some questions about some other things.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 724,
+            "text": "I need to buy a few things.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Let us trade more than words. . ."
+        },
+        {
+            "id": 725,
+            "text": "As always, thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 732,
+            "text": "I had some questions about some other places.",
+            "react": 321,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of other places. . ."
+        },
+        {
+            "id": 733,
+            "text": "I had some questions about some other things.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 734,
+            "text": "I need to buy a few things.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "Let us trade more than words. . ."
+        },
+        {
+            "id": 735,
+            "text": "As always, thanks for the info, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 742,
+            "text": "So where do I find the Astrolite now?",
+            "react": 761,
+            "condition": "GetQuest(\"Mercurio\") == 0",
+            "effect": "",
+            "malk_text": "Where do I get the boom-boom?"
+        },
+        {
+            "id": 743,
+            "text": "Did you learn anything in all that time, genius?",
+            "react": 111,
+            "condition": "GetQuest(\"Mercurio\") == 0",
+            "effect": "G.Mercurio_Pissed = 1",
+            "malk_text": "You would think your brain might be a little bigger after so much sand  has fallen."
+        },
+        {
+            "id": 745,
+            "text": "I had some other questions about people.",
+            "react": 331,
+            "condition": "GetQuest(\"Mercurio\") >= 1",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 746,
+            "text": "I had some other questions about Santa Monica.",
+            "react": 321,
+            "condition": "GetQuest(\"Mercurio\") >= 1",
+            "effect": "",
+            "malk_text": "I had some other questions about the city by the sea."
+        },
+        {
+            "id": 747,
+            "text": "Thanks for the info. Goodbye.",
+            "react": 0,
+            "condition": "GetQuest(\"Mercurio\") >= 1",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I am no longer here. . ."
+        },
+        {
+            "id": 752,
+            "text": "Trust you? You're a fuck up. You deserve whatever punishment the prince gives.",
+            "react": 851,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The fleet footed god is not worthy of trust. Punishment, yes."
+        },
+        {
+            "id": 760,
+            "text": "I'll think about it. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "I trust only that none of this may be real. Farewell. . ."
+        },
+        {
+            "id": 762,
+            "text": "How do I get it back?",
+            "react": 121,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "How do I get my boom-boom?"
+        },
+        {
+            "id": 763,
+            "text": "So you're telling me I have to get it myself? Great.",
+            "react": 121,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Mercury is not so fleet. So must I be in his stead?"
+        },
+        {
+            "id": 764,
+            "text": "How do I get there?",
+            "react": 801,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me where my feet must travel."
+        },
+        {
+            "id": 772,
+            "text": "Is it you, great Mercury?",
+            "react": 781,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 773,
+            "text": "Of that I am certain. You want me to call a donut lover?",
+            "react": 11,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 782,
+            "text": "You need only open your eyes. Now, tell me your tale. . .",
+            "react": 71,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 792,
+            "text": "I need you to paint a picture of someone...",
+            "react": 501,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 793,
+            "text": "I need to find some answers in the wrinkles of your brain...",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 794,
+            "text": "I need toys and boom-sticks...",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": ""
+        },
+        {
+            "id": 795,
+            "text": "I am no longer here.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 802,
+            "text": "How do I get it back?",
+            "react": 121,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "Seems as if the fleet-footed god needs a helping hand. . ."
+        },
+        {
+            "id": 803,
+            "text": "So you're telling me I have to get it myself? Great.",
+            "react": 121,
+            "condition": "G.Extra_Lines == 1",
+            "effect": "",
+            "malk_text": "I see. So I must become like the wayward whale and hit the beach."
+        },
+        {
+            "id": 804,
+            "text": "Anything else?",
+            "react": 121,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Mercury is not so fleet. So must I be in his stead?"
+        },
+        {
+            "id": 812,
+            "text": "I apologize.",
+            "react": 141,
+            "condition": "G.Mercurio_Get == 0",
+            "effect": "",
+            "malk_text": "My many sorrows for the insult."
+        },
+        {
+            "id": 813,
+            "text": "I apologize. I'll be back.",
+            "react": 0,
+            "condition": "G.Mercurio_Get == 1",
+            "effect": "",
+            "malk_text": "My many sorrows for the insult."
+        },
+        {
+            "id": 814,
+            "text": "Sure you could have. You\u2019re a spineless coward.",
+            "react": 751,
+            "condition": "",
+            "effect": "",
+            "malk_text": "You deserve the cowardice that befell you."
+        },
+        {
+            "id": 822,
+            "text": "What am I supposed to do now?",
+            "react": 971,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Where do my feet lead me next?"
+        },
+        {
+            "id": 823,
+            "text": "What's the story with this Astrolite?",
+            "react": 211,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Astrolite is fun, no?"
+        },
+        {
+            "id": 832,
+            "text": "Okay, okay. Just tell me who did this to you.",
+            "react": 81,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Who made your flesh cry?"
+        },
+        {
+            "id": 833,
+            "text": "Are you going to tell me who did this or do I finish the job?",
+            "react": 841,
+            "condition": "",
+            "effect": "",
+            "malk_text": "You should heed my wisdom, because I'm a fool killer."
+        },
+        {
+            "id": 842,
+            "text": "(Auto-Link)",
+            "react": 91,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 860,
+            "text": "No, you're going to lay there bleeding like a bitch.",
+            "react": 861,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My dog has a soul, you do not."
+        },
+        {
+            "id": 870,
+            "text": "Goodbye, loser.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "Stuck like a pig, you're stuck there."
+        },
+        {
+            "id": 873,
+            "text": "You want me to call an ambulance?",
+            "react": 11,
+            "condition": "true",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 874,
+            "text": "Yeah, that's me. What happened to you?",
+            "react": 71,
+            "condition": "true",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 882,
+            "text": "You're a funny guy.",
+            "react": 891,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Mercury fills me with mirth!"
+        },
+        {
+            "id": 883,
+            "text": "I can't wait to tell the prince what a tool you are.",
+            "react": 891,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The prince shall know your lack of worth."
+        },
+        {
+            "id": 900,
+            "text": "No, you're going to lay there bleeding like a bitch.",
+            "react": 861,
+            "condition": "",
+            "effect": "",
+            "malk_text": "My dog has a soul, you do not."
+        },
+        {
+            "id": 910,
+            "text": "You're worthless.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Your worth could be no less."
+        },
+        {
+            "id": 918,
+            "text": "You're looking better, Mercurio.",
+            "react": 921,
+            "condition": "",
+            "effect": "",
+            "malk_text": "The fleet footed one stands!"
+        },
+        {
+            "id": 919,
+            "text": "Don't count on it.",
+            "react": 931,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Your buttocks cannot be saved!"
+        },
+        {
+            "id": 922,
+            "text": "(Auto-Link)",
+            "react": 931,
+            "condition": "",
+            "effect": "",
+            "malk_text": ""
+        },
+        {
+            "id": 939,
+            "text": "You're going to wish you died back on the beach. C'mon, ghoul.",
+            "react": 0,
+            "condition": "",
+            "effect": "G.Mercurio_Attack = 1",
+            "malk_text": "Oooh. Scary."
+        },
+        {
+            "id": 942,
+            "text": "You look like you're feeling better.",
+            "react": 391,
+            "condition": "G.Mercurio_Health == 0",
+            "effect": "",
+            "malk_text": "How fleet your feet, Mercury?"
+        },
+        {
+            "id": 952,
+            "text": "Definitely. What do you got that might help me out?",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 953,
+            "text": "Uh-huh. I need some info.",
+            "react": 491,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need to find some answers in the wrinkles of your brain. . ."
+        },
+        {
+            "id": 954,
+            "text": "I didn't think it was necessary, but that's your choice. Goodbye, Mercurio.",
+            "react": 0,
+            "condition": "Humanity 6",
+            "effect": "",
+            "malk_text": "Run, run, little Mercury. Farewell."
+        },
+        {
+            "id": 955,
+            "text": "They deserved it. Goodbye, Mercurio.",
+            "react": 0,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Mercury can also be the god of war. hmm? I am gone."
+        },
+        {
+            "id": 962,
+            "text": "You look like you're feeling better.",
+            "react": 391,
+            "condition": "G.Mercurio_Health == 0",
+            "effect": "",
+            "malk_text": "How fleet your feet, Mercury?"
+        },
+        {
+            "id": 963,
+            "text": "What are you doing out here, Mercurio?",
+            "react": 941,
+            "condition": "",
+            "effect": "",
+            "malk_text": "What has set great Mercury by the waters?"
+        },
+        {
+            "id": 964,
+            "text": "I might need some equipment for this little trip.",
+            "react": 0,
+            "condition": "IsDead(\"Dennis\")",
+            "effect": "npc.StartBarter(G.Story_State, 0)",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 965,
+            "text": "I might need some equipment for this little trip.",
+            "react": 951,
+            "condition": "not IsDead(\"Dennis\")",
+            "effect": "",
+            "malk_text": "I need some nasty little toys. . ."
+        },
+        {
+            "id": 972,
+            "text": "How do I find this place?",
+            "react": 231,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Who tells me where is the house of wares?"
+        },
+        {
+            "id": 973,
+            "text": "What do you know about this warehouse?",
+            "react": 221,
+            "condition": "",
+            "effect": "",
+            "malk_text": "Tell me of the house of wares. . ."
+        },
+        {
+            "id": 974,
+            "text": "What's a Sabbat?",
+            "react": 531,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I can't fit Sabbat into my cerebrum. . ."
+        },
+        {
+            "id": 983,
+            "text": "What can you tell me about her?",
+            "react": 271,
+            "condition": "",
+            "effect": "",
+            "malk_text": "What can you tell me of the dark daughter of Janus?"
+        },
+        {
+            "id": 984,
+            "text": "What can you tell me about Jeanette?",
+            "react": 281,
+            "condition": "",
+            "effect": "",
+            "malk_text": "What can you tell me of the white daughter of Janus?"
+        },
+        {
+            "id": 985,
+            "text": "I had a question about someone else.",
+            "react": 331,
+            "condition": "",
+            "effect": "",
+            "malk_text": "I need you to paint me a picture of someone. . ."
+        },
+        {
+            "id": 990,
+            "text": "I guess I'll go see her. Goodbye.",
+            "react": 0,
+            "condition": "",
+            "effect": "npc.SetDisposition(\"Dead\",1)",
+            "malk_text": "The spawn of the two-headed god awaits. Farewell."
+        }
+    ],
+    "starts": [
+        {
+            "id": 911,
+            "condition": "GetQuest(\"Astrolite\") == 5"
+        },
+        {
+            "id": 691,
+            "condition": "G.Story_State == 125 and G.Mercurio_Anarch == 0"
+        },
+        {
+            "id": 521,
+            "condition": "G.Story_State == 120"
+        },
+        {
+            "id": 691,
+            "condition": "G.Story_State == 115 and G.Mercurio_Anarch == 0"
+        },
+        {
+            "id": 681,
+            "condition": "G.Story_State == 110"
+        },
+        {
+            "id": 671,
+            "condition": "G.Story_State == 100 and G.Mercurio_Traitor == 0"
+        },
+        {
+            "id": 631,
+            "condition": "G.Story_State >= 65 and G.Mercurio_Flame == 0 and G.Mercurio_Mgun == 1"
+        },
+        {
+            "id": 521,
+            "condition": "G.Mercurio_Friend == 1"
+        },
+        {
+            "id": 661,
+            "condition": "G.Story_State >= 60 and G.Mercrio_Mgun == 0 and G.Mercurio_Swat == 1"
+        },
+        {
+            "id": 651,
+            "condition": "G.Story_State >= 40 and G.Mercurio_Swat == 0 and G.Mercurio_Spas == 1"
+        },
+        {
+            "id": 471,
+            "condition": "G.Story_State >= 35 and G.Mercurio_Spas == 0"
+        },
+        {
+            "id": 621,
+            "condition": "G.Story_State >= 30 and G.Story_State < 40 and G.Mercurio_Fix == 0"
+        },
+        {
+            "id": 481,
+            "condition": "G.Mercurio_Deal == 1"
+        },
+        {
+            "id": 961,
+            "condition": "G.Story_State >= 10"
+        },
+        {
+            "id": 151,
+            "condition": "GetQuest(\"Mercurio\") == 2"
+        },
+        {
+            "id": 311,
+            "condition": "GetQuest(\"Mercurio\") == 666"
+        },
+        {
+            "id": 1,
+            "condition": "GetQuest(\"Mercurio\") == 1"
+        }
+    ]
+}

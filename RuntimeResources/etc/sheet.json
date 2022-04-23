@@ -1,0 +1,277 @@
+{
+    "Sections": [
+    {
+        "display_name": "Physical",
+		"id":		    "Physical",
+		"description":	"Physical Attributes measure your character's ability to hit harder, move faster, and soak damage."
+    },
+    {
+        "display_name": "Social",
+		"id":		    "Social",
+		"description":	"Social Attributes determine the amount of charm and influence you have over others."
+    },
+    {
+        "display_name": "Mental",
+		"id":		    "Mental",
+		"description":	"Mental Attributes are important for spotting secrets, applying knowledges, and aiming."
+    },
+    {
+        "display_name": "Talents",
+		"id":		    "Talents",
+		"description":	"Talents are inherent abilities that one improves on through life experience."
+    },
+    {
+        "display_name": "Skills",
+		"id":		    "Skills",
+		"description":	"Skills are abilities that can be taught or learned from books."
+    },
+    {
+        "display_name": "Knowledges",
+		"id":		    "Knowledges",
+		"description":	"Knowledges are applications of the mind and often depend on mental attributes."
+    },
+    {
+        "display_name": "Disciplines",
+		"id":		    "Disciplines",
+		"description":	"Powerful vampiric abilities. Each clan specializes in its own unique set of Disciplines."
+    }
+    
+    ],
+
+    
+	"Attributes": [
+	{
+		"display_name": "Strength",
+		"id":		    "Strength",
+        "affect":       ["UnarmedCombat","MeleeCombat"],
+		"description":	"Strength is a measure of your character's physical prowess. It is crucial for both the Unarmed and Melee Combat Feats."
+	},
+    {
+		"display_name": "Dexterity",
+		"id":		    "Dexterity",
+        "affect":       ["Lockpicking","Sneaking"],
+		"description":	"Determines the speed and agility of your character. Dexterity will increase your Lockpicking and Sneaking Feats."
+	},
+    {
+		"display_name": "Stamina",
+		"id":		    "Stamina",
+        "affect":       ["Bashing"],
+		"description":	"Your character's overall toughness. Prevents damage from bullets, police batons, and baseball bats. Increases Soak (Bashing)."
+	},
+    
+    {
+		"display_name": "Charisma",
+		"id":		    "Charisma",
+        "affect":       ["Persuasion"],
+		"description":	"Measures your character's ability to sway others through personality. Charisma is an important part of the Persuasion Feat."
+	},
+    {
+		"display_name": "Manipulation",
+		"id":		    "Manipulation",
+        "affect":       ["Haggle"],
+		"description":	"Measures your character's ability to exploit people and events. Manipulation is necessary for the Haggle Feat."
+	},
+    {
+		"display_name": "Appearance",
+		"id":		    "Appearance",
+        "affect":       ["Seduction"],
+		"description":	"Indicates the physical attractiveness of your character.  Appearance is the foundation of the Seduction Feat."
+	},
+    
+    {
+		"display_name": "Perception",
+		"id":		    "Perception",
+        "affect":       ["Inspection","RangedCombat"],
+		"description":	"Measures your character's awareness of their surroundings. Perception is necessary for the Ranged Combat and Inspection Feats."
+	},
+    {
+		"display_name": "Intelligence",
+		"id":		    "Intelligence",
+        "affect":       ["Research","Intimidate"],
+		"description":	"Indicates your character's ability to learn, think, and remember. Intelligence is essential for the Research and Intimidate Feats."
+	},
+    {
+		"display_name": "Wits",
+		"id":		    "Wits",
+        "affect":       ["Hacking","CombatDefence"],
+		"description":	"Measures the sharpness of your character's mind, and ability to think on their feet. Wits improve the Defense and Hacking Feats."
+	},
+    
+    {
+		"display_name": "Brawl",
+		"id":		    "Brawl",
+        "affect":       ["UnarmedCombat"],
+		"description":	"The ability to fight bare-handed. Brawl is important for the Unarmed Combat Feat, which also makes it easier to feed on the unwilling."
+	},
+    {
+		"display_name": "Dodge",
+		"id":		    "Dodge",
+        "affect":       ["CombatDefence"],
+		"description":	"Detirmines your character's ability to avoid taking damage in all forms of combat. Dodge increases the Defense Feat."
+	},
+    {
+		"display_name": "Intimidation",
+		"id":		    "Intimidation",
+        "affect":       ["Intimidate"],
+		"description":	"Measures your character's ability to instill fear, and force cooperation in others. Intimidation, naturally, increases your Intimidate Feat."
+	},
+    {
+		"display_name": "Subterfuge",
+		"id":		    "Subterfuge",
+        "affect":       ["Seduction"],
+		"description":	"Measures your character's ability to instill fear, and force cooperation in others. Intimidation, naturally, increases your Intimidate Feat."
+	},
+    
+    {
+		"display_name": "Firearms",
+		"id":		    "Firearms",
+        "affect":       ["RangedCombat"],
+		"description":	"Determines how well your character aims, and causes damage with guns of all types. Firearms is an indispensable part of the Ranged Combat Feat."
+	},
+    {
+		"display_name": "Melee",
+		"id":		    "Melee",
+        "affect":       ["MeleeCombat"],
+		"description":	"Your character's ability to fight in close combat with handheld weapons such as knives and swords. Melee increases your Melee Feat."
+	},
+    {
+		"display_name": "Security",
+		"id":		    "Security",
+        "affect":       ["Lockpicking"],
+		"description":	"Displays your character's knowledge of how locks and security systems work. Security is needed for the Lockpicking Feat."
+	},
+    {
+		"display_name": "Stealth",
+		"id":		    "Stealth",
+        "affect":       ["Sneaking"],
+		"description":	"Measures your character's ability to move silently and avoid being detected.  Stealth is a crucial component of the Sneaking Feat."
+	},
+    
+    {
+		"display_name": "Computer",
+		"id":		    "Computer",
+        "affect":       ["Hacking"],
+		"description":	"Indicates your character's ability to operate computers and other devices. Computer knowledge is needed for the Hacking Feat."
+	},
+    {
+		"display_name": "Finance",
+		"id":		    "Finance",
+        "affect":       ["Haggle"],
+		"description":	"Your character's ability to evaluate the market value of items. Finance is needed for the Haggle Feat."
+	},
+    {
+		"display_name": "Investigation",
+		"id":		    "Investigation",
+        "affect":       ["Inspection"],
+		"description":	"Measures your character's ability to notice minute or hidden details. Investigation will increase your Inspection Feat."
+	},
+    {
+		"display_name": "Scholarship",
+		"id":		    "Scholarship",
+        "affect":       ["Research","Persuasion"],
+		"description":	"Your character's ability to gather information, debate, and learn new skills. Scholarship will increase your Research and Persuasion Feats."
+	},
+    
+    ],
+    
+    "Feats": [
+    {
+		"display_name": "Lockpicking",
+		"id":		    "Lockpicking",
+        "dependence":   ["Dexterity","Security"],
+		"description":	"Measures your character's skill at breaking into places you're not supposed to be. The Dexterity attribute and the Security ability both contribute to the Lockpicking Feat."
+	},
+    {
+		"display_name": "Sneaking",
+		"id":		    "Sneaking",
+        "dependence":   ["Dexterity","Stealth"],
+		"description":	"Measures your character's ability to avoid detection. The Dexterity attribute and the Stealth ability both contribute to the Sneaking Feat."
+	},
+    {
+		"display_name": "Hacking",
+		"id":		    "Hacking",
+        "dependence":   ["Wits","Computer"],
+		"description":	"Measures your character's ability to crack into computers and other electronic devices. The Wits attribute and the Computer ability both contribute to the Hacking Feat."
+	},
+    {
+		"display_name": "Inspection",
+		"id":		    "Inspection",
+        "dependence":   ["Perception","Investigation"],
+		"description":	"Measures your character's ability to notice hidden details. The Perception attribute and the Investigation ability both contribute to the Inspection Feat."
+	},
+    {
+		"display_name": "Research",
+		"id":		    "Research",
+        "dependence":   ["Scholarship","Intelligence"],
+		"description":	"Measures your character's ability to read books, and learn new abilities. The Intelligence attribute and the Scholarship ability both contribute to the Research Feat."
+	},
+    {
+		"display_name": "Haggle",
+		"id":		    "Haggle",
+        "dependence":   ["Finance","Manipulation"],
+		"description":	"Measures your character's ability to estimate the value of goods, and haggle for better prices. The Manipulation attribute and the Finanace ability both contribute to the Haggle Feat."
+	},
+    {
+		"display_name": "Intimidate",
+		"id":		    "Intimidate",
+        "dependence":   ["Intelligence","Intimidation"],
+		"description":	"Measures your character's ability to instill fear in others and force their cooperation. The Intelligence attribute and the Intimidation ability both contribute to the Intimidate Feat."
+	},
+    {
+		"display_name": "Persuasion",
+		"id":		    "Persuasion",
+        "dependence":   ["Charisma","Scholarship"],
+		"description":	"Measures your character's ability to convince people that they want what you want. The Charisma attribute and the Scholarship ability both contribute to the Persuasion Feat."
+	},
+    {
+		"display_name": "Seduction",
+		"id":		    "Seduction",
+        "dependence":   ["Appearance","Subterfuge"],
+		"description":	"Measures your character's ability to titillate others into helping you. The Appearance attribute and the Subterfuge ability both contribute to the Seduction Feat."
+	},
+    {
+		"display_name": "Unarmed Combat",
+		"id":		    "UnarmedCombat",
+        "dependence":   ["Brawl","Strength"],
+		"description":	"Measures your character's ability to do damage in unarmed combat, and Feed on the unwilling. The Strength attribute and the Brawl ability both contribute to the Unarmed Combat Feat."
+	},
+    {
+		"display_name": "Melee Combat",
+		"id":		    "MeleeCombat",
+        "dependence":   ["Melee","Strength"],
+		"description":	"Measures your character's ability to damage with melee weapons such as knives and clubs. The Strength attribute and the Melee ability both contribute to the Melee Combat Feat."
+	},
+    {
+		"display_name": "Ranged Combat",
+		"id":		    "RangedCombat",
+        "dependence":   ["Firearms","Perception"],
+		"description":	"Measures your accuracy and damage with firearms of all kinds. The Perception attribute and the Firearms ability both contribute to the Ranged Combat Feat."
+	},
+    {
+		"display_name": "Combat Defence",
+		"id":		    "CombatDefence",
+        "dependence":   ["Dodge","Wits"],
+		"description":	"Measures your character's ability to avoid taking damage of all types in combat. The Wits attribute and the Dodge ability both contribute to the Defense Feat."
+	},
+    {
+		"display_name": "Bashing",
+		"id":		    "Bashing",
+        "dependence":   ["Stamina"],
+		"description":	"Your ability to shrug off damage from bullets and blunt melee weapons. Stamina, as well as clothing and body armor contribute to Bashing soak."
+	},
+    {
+		"display_name": "Lethal",
+		"id":		    "Lethal",
+        "dependence":   [],
+		"description":	"Your ability to shrug off damage from bladed melee weapons. While vampires may defend against lethal damage with their Defense feat, they are nearly helpless once the blow is landed. Clothing and body armor add to your Lethal soak feat."
+	},
+    {
+		"display_name": "Aggravated",
+		"id":		    "Aggravated",
+        "dependence":   [],
+		"description":	"Your ability to shrug off damage from claws, fangs, fire, and electricity. Aggravated damage is deathly serious. Vampires can defend against claws and fangs with their Defense feat, but are helpless against fire and electricity. Aggravated damage can only be Soaked through supernatural means."
+	},
+    
+    ]
+}
+

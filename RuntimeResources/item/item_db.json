@@ -1,0 +1,101 @@
+{
+    "Items": [
+    {
+        "display_name": "Lockpick",
+		"id":		    "lockpick",
+        "type":		    4,
+        "icon":		    "lockpicks",
+		"description":	"Tool of the trade for locksmiths and burglars.  A lockpick is used to push the pins inside a lock into their correct position until the lock is 'open'. It takes a lot of experience to use these well."
+    },
+    {
+        "display_name": "Wallet",
+		"id":		    "wallet",
+        "type":		    4,
+        "icon":		    "money_3",
+		"description":	"Your wallet."
+    },
+    {
+        "display_name": "Astrolite",
+		"id":		    "astrolite",
+        "type":		    4,
+        "icon":		    "astrolite",
+		"description":	"A powerful liquid explosive made from over-the-counter chemicals."
+    },
+    {
+        "display_name": "Keyring",
+		"id":		    "keyring",
+        "type":		    4,
+        "icon":		    "key",
+		"description":	"Keyring."
+    }
+    
+    ],
+    
+    "MeleeWeapons": [
+    {
+        "display_name": "Unarmed",
+		"id":		    "unarmed",
+        "type":		    1,
+        "rate":	        0.5,
+		"CriminalLevel":1,
+		"SkillRequirement":	1,
+		"BaseLethality":	8,
+        "icon":		    "fists",
+		"description":	"No weapon readied."
+    },
+    {
+        "display_name": "Katana",
+		"id":		    "katana",
+        "type":		    1,
+        "rate":	        1,
+		"CriminalLevel":3,
+		"SkillRequirement":	8,
+		"BaseLethality":	12,
+        "icon":		    "katana",
+		"description":	"A light, slightly curved traditional Japanese sword designed for quick slashing attacks. To Kindred, a competent swordsman is far more dangerous than a sharpshooter."
+    }
+    
+    ],
+    
+    "RangedWeapons": [
+    {
+        "display_name": "Anaconda",
+		"id":		    "anaconda",
+        "type":		    2,
+        "SkillRequirement":	5,
+		"BaseLethality":	14,
+        "clip_size":	6,
+        "reload_time":  3.5,
+        "range":		35,
+        "spread":	    6,
+        "icon":		    "anaconda",
+		"description":	"A .44 magnum revolver.  Feelin' lucky punk? A large caliber monster with the power to stop almost anyone dead in his tracks. (Vadym Bielikov [https://www.artstation.com/artwork/QRRxd])"
+    },
+	{
+        "display_name": "Anaconda Enemy",
+		"id":		    "anaconda_enemy",
+        "type":		    2,
+        "SkillRequirement":	5,
+		"BaseLethality":	14,
+        "clip_size":	6,
+        "reload_time":  3.5,
+        "range":		35,
+        "spread":	    6,
+        "icon":		    "anaconda",
+		"description":	"A .44 magnum revolver.  Feelin' lucky punk? A large caliber monster with the power to stop almost anyone dead in his tracks. (Vadym Bielikov [https://www.artstation.com/artwork/QRRxd])"
+    }
+    
+    ],
+    
+    "Armors": [
+    {
+        "display_name": "Light Clothing",
+		"id":		    "light_armor",
+        "type":		    0,
+        "icon":		    "malkavian_f_a0",
+		"description":	"This is the most basic and unrestrictive armor.  There are no stat penalites for equipping it.  Examples of cloth armor would be t-shirts, khakis, sun dresses, and pleated skirts."
+    }
+    
+    ]
+}
+

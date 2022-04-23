@@ -1,0 +1,92 @@
+{
+    "quests":
+    [
+        {
+            "id":"Mercurio",
+            "title":"Wherefore Art Thou, Mercurio?",
+            "area":"0",
+            "stages":
+            [
+                {
+                    "id":1,
+                    "type":0,
+                    "descr":"Prince LaCroix has dictated that you are to go to Santa Monica and meet with an agent of his named Mercurio, who will provide you with the details of your assignment. To get to his apartment take a right at the end of the alley downstairs from your haven. His apartment building is the first one on your right."
+                },
+                {
+                    "id":2,
+                    "type":1,
+                    "effect":"GiveExp(1); GiveMoney(200)",
+                    "descr":"You have located Mercurio, Prince LaCroix's agent in Santa Monica."
+                }
+            ]
+        },
+        {
+            "id":"Astrolite",
+            "title":"Surf's Up",
+            "area":"0",
+            "stages":
+            [
+                {
+                    "id":1,
+                    "type":0,
+                    "descr":"Mercurio has asked you to retrieve the Astrolite he was supposed to get for you from a group of 'junkie pricks' who live in a dump on the beach.  Additionally, Mercurio would also like it if you could get his money back."
+                },
+                {
+                    "id":2,
+                    "type":0,
+                    "effect":"GiveExp(2)",
+                    "descr":"You retrieved the Astrolite for Mercurio. You should return to him and find out what your next step should be."
+                },
+                {
+                    "id":3,
+                    "type":1,
+                    "effect":"GiveExp(2);",
+                    "descr":"You retrieved the Astrolite and returned to Mercurio for further instructions."
+                },
+                {
+                    "id":4,
+                    "type":0,
+                    "effect":"",
+                    "descr":"Mercurio screwed up and got beaten by a gang of 'junkie pricks' who live in a dump on the beach. You need to get the Astrolite from them using any means possible."
+                },
+                {
+                    "id":5,
+                    "type":0,
+                    "effect":"GiveExp(2)",
+                    "descr":"You retrieved the Astrolite, and need to return to Mercurio for further instructions. Judging from the mood he was in when you left him, he probably won't be too happy to see you."
+                },
+                {
+                    "id":6,
+                    "type":0,
+                    "effect":"",
+                    "descr":"You retrieved the Astrolite, but Mercurio wasn't too happy to see you. You had to put him down like the dog he was. You need to find information on what you're supposed to do next."
+                },
+                {
+                    "id":7,
+                    "type":1,
+                    "effect":"GiveExp(1)",
+                    "descr":"After killing Mercurio you found his journal with details on what you're supposed to do next."
+                },
+            ]
+        },
+        {
+            "id":"Strauss",
+            "title":"The Regent's Riddle",
+            "area":"1",
+            "stages":
+            [
+                {
+                    "id":1,
+                    "type":0,
+                    "descr":"M. Strauss, a Tremere Regent, has invited you to his home in downtown Los Angeles. You need to find him. His invitation left a cryptic riddle which reads: Dark blood, our curse, a light this verse Such power I sense in one so young Come find me where burns the mystical sun."
+                },
+                {
+                    "id":2,
+                    "type":1,
+                    "effect":"GiveExp(2)",
+                    "descr":"You found Maximillian Strauss, the Tremere Regent."
+                }
+            ]
+        }
+    ]
+}
